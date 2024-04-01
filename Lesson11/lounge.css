@@ -27,3 +27,11 @@ p {
 }
 
 h1 { font-size: 10vw; }
+
+body{
+	background-color: pink;
+	color: rgb(132, 240, 248);
+	color: purple;
+	color: rgba(199, 142, 236, 0.8);
+	color: #d87dc9cc;
+}
