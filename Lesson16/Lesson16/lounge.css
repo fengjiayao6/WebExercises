@@ -1,7 +1,5 @@
 body {
-	font-size: small; 
-	font-family: Verdana， Helvetica， Arial;
-  line-height: 1.6em;
+  font: small/1.6em Verdana,Helvetica,Arial;
 }
 
 h1, h2 {
@@ -17,37 +15,26 @@ h2 {
 }
 
 .guarantee {
-  border-color:      white;
-  border-width:          1px;
-  border-style:       dashed;
-  background-color:#a7cece;
-  padding:              25px;
+  border: 1px,dashed,white;
   margin:               30px;
   line-height:         1.9em;
   font-style:         italic;
   color:              #444;
   font-family: Georgia, 'Times New Roman';
-  background-image: url(images/background.gif);
-  background-repeat: no-repeat;
   background-position: top left;
-  padding: 25px;
-  padding-left: 80px;
+  background: #a7cece url(images/background.gif)no-repeat;
+  padding: 25px 25px 25px 80px;
   margin-right: 250px;
   border-top-right-radius: 2em;
   border-bottom-left-radius: 2em;
-  border-color: #ffffff;
 }
 
 .elixirs{
-    border-width: thin;
-    border-style: solid;
-    border-color: #007e7e;
+    border: thin solid #007e7e;
 
     width: 200px;
 
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding: 0px 20px 20px 20px;
 
     margin-left: 20px;
 
@@ -65,5 +52,38 @@ h2 {
 }
 
 .elixirs h3{
-  color: #de2c47;
+  color: #d12c47;
+}
+
+.cd{
+  font-size: italic;
+}
+
+.artist{
+  font-weight: bold;
+}
+
+a:link{
+  color: green;
+}
+
+a:visited{
+  color: red;
+}
+
+a:hover{
+  color: yellow;
+}
+
+.elixirs a:link{
+  color: #007e7e;
+}
+
+.elixirs a:visited{
+  color: #333333;
+}
+
+.elixirs a:hover{
+  background: #f88396;
+  color: #0d5353;
 }
