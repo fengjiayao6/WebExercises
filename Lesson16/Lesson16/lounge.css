@@ -32,9 +32,9 @@ h2 {
 .elixirs{
     border: thin solid #007e7e;
 
-    width: 200px;
-
     padding: 0px 20px 20px 20px;
+
+    width: 200px;
 
     margin-left: 20px;
 
@@ -44,6 +44,8 @@ h2 {
     text-align: center;
 
     line-height: 1;
+
+    float: right;
 }
 
 
@@ -86,4 +88,36 @@ a:hover{
 .elixirs a:hover{
   background: #f88396;
   color: #0d5353;
+}
+
+.left {
+  margin-right: 10px;
+}
+
+.right {
+  margin-left: 20px;
+  float:right;
+}
+
+.ruler {
+  display: inline-block;
+  width: 30px;
+}
+
+div.block {
+  width: 45vw;
+  height: 20vh;
+  border: 2px solid black;
+}
+
+.top {
+  margin-bottom: 10px;
+}
+
+.bottom {
+  margin-top: 20px;
+}
+
+.ruler{
+  height: 20px;
 }
