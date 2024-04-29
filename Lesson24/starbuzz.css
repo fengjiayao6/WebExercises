@@ -68,7 +68,7 @@ a:visited {
 }
 
 .all-content {
-    width: 800px;
+    width: 1100px;
     /* height: 200px; */
     /* background-color: aqua; */
     padding-top: 5px;
@@ -85,4 +85,10 @@ div.tableContainer {
 display: table;
 /* 为表格中地单元格设置 10px 的边框间距（相当于外边距）*/
 border-spacing: 5px;
+}
+
+.drinks {
+display: table-cell;
+background-color:  #efe5d0;
+padding: 15px;
 }
