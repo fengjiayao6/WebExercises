@@ -12,7 +12,30 @@ body {
 
 .header-logo {
   margin-left: -15px;
-  display: inline-block;
+  float: left;
+}
+
+.search {
+  border:1px solid,#822433;
+  float: left;
+}
+
+.bigsearch{
+  float: right;
+  clear: left;
+}
+
+.it {
+  border: 1px;
+  border: #822433;
+}
+
+.push {
+  display: block;
+  float:left;
+  background-color: #822433;
+  width: 50px;
+  height: 50px;
 }
 
 nav ul {
@@ -20,13 +43,27 @@ nav ul {
 	list-style-type: none;
 	padding: 5px 0px 5px 0px;
   display: flex;
-  float: right;
+  padding-top: 25px;
+  float: left;
+}
+
+li{
+  margin: 15px;
+}
+
+.toptop {
+  clear: right;
+}
+
+.something{
+  width: 200px;
+  height: 200px;
 }
 
 .footer {
-  background-color: #822433;
+  width: 20px;
+  height: 20px;
+  background: #822433;
   color: #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  display: inline-block;
+  margin: 5px;
 }
