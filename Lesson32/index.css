@@ -2,13 +2,10 @@ body {
   background-color: #fff;
   color: #333;
   font-size: 18px;
-  min-height: 100%;
-  background: #fff;
+  /*background: #fff;*/
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5em;
   margin: 15px;
-  margin-left: 250px;
-  margin-right: 250px;
   /*padding-top: 120px;*/
 }
 
@@ -18,30 +15,37 @@ body {
 }
 
 .search {
-  border:1px solid,#822433;
-  float: left;
-  height: 10px;
-  width: 50px;
+  border:1px solid #822433;
+  display: inline-block;
 }
 
 .bigsearch{
   float: right;
-  clear: left;
+  /*margin-right: 350px;*/
+  padding-top: 40px;
+}
+
+.searchpeople {
+  display: inline-block;
 }
 
 .it {
   border: 1px;
   border: #822433;
+  display: inline-block;
 }
 
 .push {
   display: block;
   float:right;
   background-color: #822433;
-  width: 50px;
-  height: 50px;
+  width: 52px;
+  height: 52px;
   z-index: 9999px;
   display: flex;
+  position: absolute;
+  right: 10px;
+  bottom: 0%;
 }
 
 nav ul {
@@ -50,6 +54,7 @@ nav ul {
 	/*padding: 5px 0px 5px 0px;*/
   display: flex;
   padding-top: 25px;
+  float: left;
 }
 
 li{
@@ -63,6 +68,7 @@ li a:hover{
 
 li a {
   text-decoration: none;
+  padding: 15px;
 }
 
 a{
@@ -76,11 +82,15 @@ a:hover {
 
 .top {
   position: fixed;
-  position: sticky;
+  margin-left: 250px;
+  margin-right: 250px;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
 }
 
 .toptop {
-  clear: right;
+  font-size: 16px;
 }
 
 .something{
@@ -89,13 +99,27 @@ a:hover {
 }
 
 .footer {
-  width: 20px;
-  height: 20px;
-  background: #822433;
-  color: #fff;
-  margin: 5px;
+  background-color: #822433; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+.footerconcent {
+  color: #333;
+  font-size: 0.7em;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-right: 350px;
+  padding-left: 350px;
 }
 
 .top-footer {
   margin: 30px;
+  font-size: 11px;
+  line-height: 21px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
