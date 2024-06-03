@@ -1,10 +1,16 @@
 .l-allcontent {
   display: block;
   float: left;
-  width: 1200px;
+  width: 100%;
   margin: auto;
   position: relative;
   margin-top: 20px;
+}
+
+.l-content {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .l-kuai1,.l-kuai2 {

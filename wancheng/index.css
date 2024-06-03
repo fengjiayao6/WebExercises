@@ -9,17 +9,22 @@ body {
   color: #333;
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
-  line-height: 1.5em;
+  /* line-height: 1.5em; */
   margin: 0;
   padding: 0;
 }
 .mdiv {
-  width: 1200px;
+  /* width: 1200px; */
   margin: auto;
 }
 
 .header-logo {
+  padding-right: 80px;
   float: left;
+}
+
+.search-container {
+  padding-left: 25px;
 }
 
 .search {
@@ -29,6 +34,7 @@ body {
   padding-right: 20px;
   padding-left: 5px;
 }
+
 
 .search :active {
   border: 1px #000;
@@ -108,11 +114,12 @@ nav ul {
 }
 
 nav ul li {
-  padding: 10px;
+  padding: 0px;
   float: left;
 }
 
 nav ul li a:hover {
+  text-decoration: none;
   background-color: #822433;
   color: #fff;
 }
@@ -129,6 +136,12 @@ nav ul li a {
 
 .header-logo {
   text-decoration: none;
+}
+
+.top-footer {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-footer a {
@@ -151,6 +164,9 @@ nav ul li a {
 
 .toptop {
   font-size: 18px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .something {
@@ -178,17 +194,24 @@ nav ul li a {
 }
 .footerconcent {
   width: 1200px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-footer {
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
-  width: 1200px;
+  width: 100%;
   margin-bottom: 30px;
   display: inline-block;
   position: relative;
+}
+
+.top-footer-content {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav {

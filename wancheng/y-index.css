@@ -47,7 +47,7 @@
 } */
 h3{
   position: relative;
-  top: -5px;
+  top: -3px;
   text-align: center;
   font-weight: 350;
   font-size: 15px;
@@ -88,11 +88,11 @@ a:hover{
   right: 500px;
   left: 120px;
   height: 195px;
-  width: 175px;
+  width: 180px;
   padding-right: 15px;
   padding-left: 20px;
   padding-top: 10px; 
-  margin-right: 10px;
+  margin-right: 5px;
   background: #c54c00;
 }
 .y-tubiao2{
@@ -100,11 +100,11 @@ a:hover{
   right: 300px;
   left: 10px;
   height: 195px;
-  width: 175px;
+  width: 180px;
   padding-right: 15px;
   padding-left: 20px;
   padding-top: 10px;
-  margin-left: 10px;
+  margin-left: 5px;
   background: #3E6041;
 }
 .y-tubiao2-2{
@@ -122,11 +122,11 @@ a:hover{
   right: 500px;
   left: 120px;
   height: 195px;
-  width: 175px;
+  width: 180px;
   padding-right: 15px;
   padding-left: 20px;
   padding-top: 10px; 
-  margin-right: 10px;
+  margin-right: 5px;
   background: #006778 ;
 }
 .y-tubiao4{
@@ -134,11 +134,11 @@ a:hover{
   right: 300px;
   left: 10px;
   height: 195px;
-  width: 175px;
+  width: 180px;
   padding-right: 15px;
   padding-left: 20px;
   padding-top: 10px;
-  margin-left: 10px;
+  margin-left: 5px;
   background: #947100;
 }
 .y-tubiao4-2{
@@ -154,21 +154,25 @@ a:hover{
   text-align: center;
   margin-left: -15px;
 }
+.y-changtiao{
+  position: relative;
+  top:4px
+}
 .y-ATENEO{
   position: relative;
   right: 500px;
   left: 120px;
   width: 380px;
-  height: 50px;
+  height: 55px;
   background: #5D5949;
 }
-
 .y-xiabiao{
   columns: 3;
   position: relative;
   height: 30px;
   width: 140px;
   left: 810px;
+  top: -10px;
   margin-top: 8px;
 }
 .y-img1{
@@ -180,6 +184,10 @@ h4{
   margin-right: 10px;
   font-weight: 350;
   font-size: 17px;
+}
+.y-qk2{
+  position: relative;
+  top:5px
 }
 .y-NOTIZIE{
   /* margin-right: 40px; */
@@ -197,17 +205,17 @@ h4{
   text-decoration: #822433 underline;
 }
 .y-sousuo{
-  background: url('images/ss.png')no-repeat right -3px;
+  background: url('images/ss.png')no-repeat right 0px;
   border: 0;
   height: 50px;
   width: 50px;
   display: block;
   position: relative;
-  right: -1120px;
+  right: -1130px;
   margin: -55px 20px 0 0;
 }
 .y-input{
-width: 1155px;
+width: 1190px;
 height: 61px; 
 font-size: 30px;
 font-weight: 300; 
@@ -231,7 +239,7 @@ border: 4px solid #822433;
   right: 25px;
   top:15px;
   height: 110px;
-  width: 160px;
+  width: 190px;
   display: block;
   padding-left: 12px;
   padding-right: 12px;
@@ -251,10 +259,10 @@ h5{
   right: 300px;
   left: 10px;
   height: 195px;
-  width: 175px;
+  width: 180px;
   padding-right: 15px;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
   background: #822433;
 }
 .y-tubiao6{
@@ -262,10 +270,10 @@ h5{
   right: 300px;
   left: 10px;
   height: 195px;
-  width: 175px;
+  width: 180px;
   padding-right: 15px;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
   background: #822433;
 }
 .y-tubiao7{
@@ -273,10 +281,10 @@ h5{
   right: 300px;
   left: 10px;
   height: 195px;
-  width: 175px;
+  width: 180px;
   padding-right: 15px;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
   background: #822433;
 }
 .y-tubiao8{
@@ -284,10 +292,10 @@ h5{
   right: 300px;
   left: 10px;
   height: 195px;
-  width: 175px;
+  width: 180px;
   padding-right: 15px;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
   background: #822433;
 }
 .y-tubiao9{
@@ -295,10 +303,10 @@ h5{
   right: 300px;
   left: 10px;
   height: 195px;
-  width: 175px;
+  width: 180px;
   padding-right: 15px;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
   background: #822433;
 }
 .y-tubiao10{
@@ -306,9 +314,9 @@ h5{
   right: 300px;
   left: 10px;
   height: 195px;
-  width: 175px;
+  width: 180px;
   padding-right: 15px;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
   background: #822433;
 }

@@ -13,18 +13,18 @@
 
 .c-seven1,.c-seven2,.c-seven3,.c-seven4,.c-seven5,.c-seven6{
 	width: 20px;
-  font-size: 50px;
+    font-size: 50px;
 	font-weight: 300;
 	height: 70px;
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 	line-height: 10px;
 	display: inline-block; 
 	/* margin-bottom: 10px; */
-  }
+}
 
 .c-date1,.c-date2,.c-date3,.c-date4,.c-date5,.c-date6{
 	width: 20px;
-  font-size: 18px;
+    font-size: 18px;
 	font-weight: 300;
 	line-height: 0px;
 	font-family: 'Open Sans', sans-serif;
@@ -37,7 +37,7 @@
 
 .c-time1,.c-time2,.c-time3,.c-time4,.c-time5,.c-time6{
 	width: 20px;
-  font-size: 18px;
+    font-size: 18px;
 	font-weight: 300;
 	line-height: 5px;
 	font-family: 'Open Sans', sans-serif;
@@ -96,22 +96,27 @@ margin-right: 1.75%;
 
 }
 
-.jiantou1 img{
+.c-one p{
+	position: relative;
+	top: 6px;
+}
+
+.c-jt1 img{
 	/* display: inline-block; */
-	height: 50px;
-	width: 60px;
+	width: 50px;
 }
 
 .c-jt1{
 	display: inline-block;
 	line-height: 1.5em;
 	margin-left: 25px;
-
+	
 }
 
 
 
-.c-TUTTI { border: 1px #822433;
+.c-TUTTI { 
+	border: 1px #822433;
 	/* background-color: #822433; */
 	/* height: 80px;
 	width: 180px; */
@@ -121,35 +126,47 @@ margin-right: 1.75%;
 	display: block;
 	position: relative;
 	left: 940px;
-	width: 165px;
+	width: 190px;
 	height:85px;
 	background-color: #822433;
 	line-height: 34px;
 	text-transform: uppercase;
-	font-weight: 300px;
+	font-weight: 320px;
 	margin: 8px 0;
 	font-family: 'Open Sans', sans-serif;
 	/* position: relative; */
 	padding-left: 20px;
+	font-size: 20px; 
 }
 
-.c-baizi{
+.c-TUTTI h2 {
+	position: relative;
+	top: 8px;
+	right: 9px;
+}
+
+/* .c-baizi{
 	font-size: 30px;
 	line-height: 34px;
-	/* text-transform: uppercase; */
+	text-transform: uppercase; 
 	font-weight: 330;
 	padding-left: 10px;
-}
+	position: relative;
+	top: 100px;
+} */
 
 .c-TUTTI a:hover{
 	color: #fff;
-	border-bottom: 2px solid #fff;
+	border-bottom: 3px solid #fff;
 }
 
-.c-TUTTI a{
+.c-TUTTI a:link{
 	color: #fff;
 	font-family: "Open Sans", sans-serif;
+	text-decoration: none;
 }
+
+
 
 .c-social{
 	color: #fff;
@@ -186,11 +203,13 @@ margin-right: 1.75%;
 }
 
 .c-zzz1,.c-zzz2,.c-zzz3{
-	margin-right: 15px;
+	margin-right: 20px;
 }
 
 .c-zzz4{
-	top: 60px;
+	position: relative;
+	top: 100px;
+	left: -55px;
 }
 
 
@@ -206,11 +225,14 @@ margin-right: 1.75%;
 	/* margin-left: 180px;  */
 }
 
-
+/* .c-baikuang4 {
+	position: relative;
+	top: 60px;
+} */
 
 .yuan1 img,.yuan2 img,.fang1 img,.fang2 img{
 	/* height: 25px; */
-	width: 35px;
+	width: 45px;
 	padding-top: 15px;
 	padding-left: 15px;
 }
@@ -222,6 +244,11 @@ margin-right: 1.75%;
 	padding-right: 10px;
 	position: relative;
 	bottom:  42px;
+	right: 8px;
+}
+
+.c-vap1,.c-vap2,.c-vap3,.c-vap4 p {
+	font-size: 15px;
 }
 
 .c-vap1 a,.c-vap2 a,.c-vap3 a,.c-vap4 a{
@@ -270,14 +297,17 @@ margin-right: 1.75%;
 .c-zuixiazi1,.c-zuixiazi2,.c-zuixiazi3,.c-zuixiazi4{
 	font-size: 11px;
 	padding-left: 15px;
+	position: relative;
+	top: 10px;
 }
+
 
 .c-zhaopiankuang5,.c-zhaopiankuang6,.c-zhaopiankuang7,.c-zhaopiankuang8{
 	height: 160px;
 	width: 250px;
 }
 
-.c-part1{
+.c-part1 {
 	/* width: 1200px;
 	margin-left: auto;
 	margin-right: auto; */
@@ -295,19 +325,21 @@ margin-right: 1.75%;
 	padding-right: auto; */
 	margin-left: auto;
 	margin-right: auto;
+	position: relative;
+	left: 50px;
 }
 
 
 
-.c-part2{
+.c-part2 {
 	
 	background-color: #822433;
 	/* justify-content: center;
 	align-items: center;  */
-	margin: 0 auto;
-	position: relative;
+	/* margin: 0 auto; */
 	width: 100%;
-	height: 650px;
+	height: 620px;
+	
 } 
 
 
@@ -331,6 +363,11 @@ margin-right: 1.75%;
 	/* padding-left:10px;	 */
 }
 
+.c-two p{
+	position: relative;
+	top:-3px;
+}
+
 
 .c-jt2{
 	display: inline-block;
@@ -346,9 +383,9 @@ margin-right: 1.75%;
 	right: 540px;
 }
 
-
-
-
+.c-jt2 img {
+	width: 45px;
+}
 
 .sszz{
 	width: 1200px;
@@ -368,6 +405,8 @@ margin-right: 1.75%;
 	margin-left: auto;
 	margin-right: auto;
 	height: 700px;
+	position: relative;
+	left: 40px;
 }
 
 /* .fenl{
@@ -376,16 +415,16 @@ margin-right: 1.75%;
 } */
 
 .c-zzz1{
-  position: relative;
+    position: relative;
 	left: -250px;
 }
 
 .c-zzz2{
-  position: relative;
+    position: relative;
 	left: -250px;
 }
 .c-zzz3{
-  position: relative;
+    position: relative;
 	left: -250px;
 }
 .c-zzz4{
@@ -393,4 +432,3 @@ margin-right: 1.75%;
 	right: 70px;
 	float: right;
 }
-
