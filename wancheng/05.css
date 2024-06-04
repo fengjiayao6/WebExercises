@@ -111,7 +111,7 @@
 }
 
 .z1,.z6,.z7,.z12 {
-  width: 190px;
+  width: 180px;
   /* height: 215px; */
 }
 
@@ -133,15 +133,15 @@
 }
 
 .z11,.z12 {
-  background-color: #756f6f;
+  background-color: #5D5949;
 }
 
 .z1 {
-  margin: 0px 10px 10px 0px;
+  margin: 0px 10px 10px 10px;
 }
 
 .z7 {
-  margin: 8px 10px 10px 0px;
+  margin: 8px 10px 10px 10px;
 }
 
 .z2,.z3,.z4,.z5,.z8,.z9,.z10,.z11 {
@@ -150,7 +150,7 @@
 }
 
 .z6 {
-  margin: 0px 0px 10px 10px;
+  margin: 0px 10px 10px 10px;
 }
 
 .z8,.z9,.z10,.z11 {
@@ -158,7 +158,7 @@
 }
 
 .z12 {
-  margin: 8px 0px 10px 10px;
+  margin: 8px 10px 10px 10px;
 }
 
 .l-kuai2 {
@@ -168,36 +168,22 @@
   margin-bottom: 15px;
 }
 
-.tu2 img {
+.tu2 img,.tu1 img,.tu3 img {
   width: 380px;
   height: 300px;
 }
 
-.tu1 img,.tu3 img {
-  height: 300px;
-  width: 390px;
-}
 
 .tu1,.tu2,.tu3 {
   display: block;
   float: left;
-  
 }
 
-.tu1 {
-  margin: 0px 10px 0px 0px;
-  width: 390px;
-}
-
-.tu2 {
+.tu1,.tu2,.tu3 {
   margin: 0px 10px 0px 10px;
   width: 380px;
 }
 
-.tu3 {
-  margin: 0px 0px 0px 10px;
-  width: 390px;
-}
 
 .lingdai1 {
   position: relative;
@@ -245,7 +231,8 @@ color: #fff;
 .l-biao1 {
   background-color: #c54c00;
   margin-right: 10px;
-  width: 290px;
+  margin-left: 10px;
+  width: 280px;
 }
 .l-biao2 {
   background-color: #006778;
@@ -263,7 +250,8 @@ color: #fff;
 .l-biao4 {
   background-color: #5d5949;
   margin-left: 10px; 
-  width: 290px;
+  margin-right: 10px;
+  width: 280px;
 }
 
 .l-biaoti1,.l-biaoti2,.l-biaoti3,.l-biaoti4 {
